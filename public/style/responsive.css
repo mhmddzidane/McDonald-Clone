@@ -1,0 +1,133 @@
+@media only screen and (max-width: 600px) {
+
+.cardmobile{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+}
+
+.carousel-inner{
+  height: 200px;
+}
+
+.item{
+   margin-left: 0;
+}
+
+.item img{
+   width: 10px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .momen{
+   margin-right: 0;
+ }
+
+ .gambar-anak{
+   margin-left: 7%;
+   max-width: 300px;
+ }
+
+ .submomen h1{
+   text-align: center;
+ }
+
+ .submomen p {
+   text-align: center;
+ }
+
+ .submomen button{
+   margin-left: auto;
+ }
+
+ /* app */
+ .app h1{
+  text-align: center;
+}
+
+.app .appdownload{
+  width: 300px;
+  margin-left: 8%;
+}
+
+.appfoto{
+  width: 300px;
+}
+
+ /* galeri */
+ .items img{
+  height: 250px;
+}
+
+/* lowongan */
+.lowongan h1,p{
+  text-align: center;
+  margin: auto;
+}
+
+.lowongan img{
+  width: 350px;
+  display: flex;
+  position:unset;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lowongan .btnlow{
+  margin-left: 25%;
+}
+
+.lowongan svg{
+  display: none;
+}
+
+/* footer */
+footer a{
+  display: block
+}
+
+.hubungi{
+  margin-top: 30px;
+}
+
+.news{
+  margin-top: 30px;
+  display:flex;
+}
+
+.newsletter{
+  margin-top: -2px;
+}
+
+.bottomfooter{
+  height: 90px;
+}
+
+.bottomfooter p{
+  margin-left: 22%;
+  margin-right: 0;
+}
+
+.bottomfooter a{
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  margin-right: 9%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  .lowongan svg{
+    display: none;
+  }
+
+  .lowongan img{
+    width: 350px;
+    display: flex;
+    position:unset;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
